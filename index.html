@@ -435,23 +435,29 @@ Complete marketing strategy to grow your business online.
 
             <div class="col-lg-6">
 
-                <form>
+                <form action="https://formspree.io/f/xgavrlqv" method="POST">
 
                     <input type="text"
                     class="form-control mb-3"
-                    placeholder="Your Name">
+                    placeholder="Your Name"
+                    name="name"
+                    required>
 
                     <input type="email"
                     class="form-control mb-3"
-                    placeholder="Your Email">
+                    placeholder="Your Email"
+                    name="email"
+                    required>
 
-                    <textarea
-                    class="form-control mb-3"
-                    rows="5"
-                    placeholder="Your Message"></textarea>
+                   <textarea
+                   class="form-control mb-3"
+                   rows="5"
+                   placeholder="Your Message"
+                   name="message"
+                   required></textarea>
 
-                    <button class="btn btn-primary px-5">
-                    Send Message
+                    <button type="submit" class="btn btn-primary px-5">
+                       Send Message
                     </button>
 
                 </form>
@@ -462,7 +468,6 @@ Complete marketing strategy to grow your business online.
 
     </div>
 </section>
-
 <!-- FOOTER -->
 <footer class="footer text-center py-4">
 
@@ -475,18 +480,18 @@ Complete marketing strategy to grow your business online.
     <p>
         © 2026 Zain Digital Hub. All Rights Reserved.
     </p>
-
-</footer>
-<a href="https://wa.me/923191881976" class="whatsapp-float" target="_blank">
-    💬
-</a>
 </footer>
 
 <a href="https://wa.me/923191881976" class="whatsapp-float" target="_blank">
-    💬
+    <i class="fab fa-whatsapp"></i>
 </a>
 
 <!-- YEH DONO LINES PASTE KARO -->
+ <a href="https://www.facebook.com/profile.php?id=61594765445128"
+   class="facebook-float"
+   target="_blank">
+    <i class="fab fa-facebook-f"></i>
+</a>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script>
@@ -496,7 +501,5 @@ AOS.init({
 });
 </script>
 
-</body>
-</html>
 </body>
 </html>
